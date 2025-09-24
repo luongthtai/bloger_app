@@ -1,3 +1,9 @@
+import MainLayout from "./layouts/MainLayout"
+
 export default function Home() {
-  return <div>Hello bloger app</div>;
+  return (
+    <MainLayout>
+      <h1>Hello bloger app</h1>
+    </MainLayout>
+  )
 }
