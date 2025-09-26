@@ -1,6 +1,6 @@
 import React from 'react'
 import NewFeeds from '../sections/NewFeeds'
-import AccountSection from '../sections/AccountSection'
+import AccountSection from '../sections/AccountSidebar'
 
 export default function Sidebar() {
     return (

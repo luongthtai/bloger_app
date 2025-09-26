@@ -2,8 +2,8 @@ import { LockKeyhole, Mail, UserRound } from "lucide-react";
 import Link from "next/link";
 import logo from "public/signupBg.svg";
 import { SecondaryButton } from "../components/Button";
-import FormInput from "../components/Input";
 import AuthLayout from "../layouts/AuthLayout";
+import { FormInput } from "../components/Input";
 
 export default function SignInPage() {
   return (

@@ -10,7 +10,7 @@ export default function NewFeeds() {
             <TitleSection title='New Feeds' />
 
             <div className='grid gap-12 mt-12'>
-                <NewFeedItem bgColor='linear-gradient(to right, #0575e6, #021b79)' icon={<Tv size={20} />} href="#" title='Newsfeed' />
+                <NewFeedItem bgColor='linear-gradient(to right, #0575e6, #021b79)' icon={<Tv size={20} />} href="/" title='Newsfeed' />
                 <NewFeedItem bgColor='linear-gradient(to right, #e44d26, #f16529)' icon={<Badge size={20} />} href="#" title='Badges' />
                 <NewFeedItem bgColor='linear-gradient(to right, #f2994a, #f2c94c)' icon={<Globe size={20} />} href="#" title='Explore Stories' />
                 <NewFeedItem bgColor='linear-gradient(to right, #ee0979, #ff6a00)' icon={<Zap size={20} />} href="#" title='Popular Groups' />

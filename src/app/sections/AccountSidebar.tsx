@@ -10,9 +10,9 @@ export default function AccountSection() {
             <TitleSection title='Account' />
 
             <div className='grid gap-12 mt-12'>
-                <AccountItem href='#' title='Settings' icon={<SettingsIcon />} />
-                <AccountItem href='#' title='Analysis' icon={<ChartPie />} />
-                <AccountItem href='#' title='Chat' icon={<MessageSquare />} />
+                <AccountItem href='settings' title='Settings' icon={<SettingsIcon size={20} />} />
+                <AccountItem href='#' title='Analysis' icon={<ChartPie size={20} />} />
+                <AccountItem href='#' title='Chat' icon={<MessageSquare size={20} />} />
             </div>
         </section>
     )
