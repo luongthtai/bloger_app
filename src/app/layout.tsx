@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import QueryProvider from "@/helps/queryProvider";
 
 export const metadata: Metadata = {
   title: "Bloger App",
@@ -11,5 +12,5 @@ type Props = {
 };
 
 export default function RootLayout({ children }: Props) {
-  return <html lang="en">{children}</html>;
+  return <html lang="en"><QueryProvider>{children}</QueryProvider></html>;
 }

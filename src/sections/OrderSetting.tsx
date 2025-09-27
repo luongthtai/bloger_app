@@ -1,7 +1,7 @@
 import React from 'react'
-import { TitleSection } from '../components/TitleSection'
-import SettingItem from '../components/SettingItem'
 import { Bell, CircleQuestionMark, Lock } from 'lucide-react'
+import { TitleSection } from '@/components/TitleSection'
+import SettingItem from '@/components/SettingItem'
 
 const otherData = [
     {

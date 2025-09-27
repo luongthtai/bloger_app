@@ -1,14 +1,16 @@
 'use client'
 
+import { PrimaryButton, SecondaryButton } from "@/components/Button";
 import Image from "next/image";
-import React from "react";
-import { PrimaryButton, SecondaryButton } from "../components/Button";
 import { useRouter } from "next/navigation";
+import React from "react";
+import { ToastContainer } from "react-toastify";
 
 type Props = {
   children: React.ReactNode;
   image: HTMLImageElement | string;
 };
+
 
 export default function AuthLayout({ children, image }: Props) {
   const router = useRouter()
@@ -34,6 +36,7 @@ export default function AuthLayout({ children, image }: Props) {
           {children}
         </section>
       </div>
+      <ToastContainer hideProgressBar={true} />
     </body>
   )
 }

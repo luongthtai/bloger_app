@@ -1,8 +1,8 @@
-import { TitleSectionLarge } from '../components/TitleSection'
-import MainLayout from '../layouts/MainLayout'
-import AccountSetting from '../sections/AccountSetting'
-import GenaralSection from '../sections/GenaralSection'
-import OrderSetting from '../sections/OrderSetting'
+import MainLayout from '@/layouts/MainLayout'
+import { TitleSectionLarge } from '../../components/TitleSection'
+import GenaralSection from '@/sections/GenaralSection'
+import AccountSetting from '@/sections/AccountSetting'
+import OrderSetting from '@/sections/OrderSetting'
 
 export default function SettingPage() {
     return (

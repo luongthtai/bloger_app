@@ -1,8 +1,8 @@
 import React from 'react'
-import { TitleSection } from '../components/TitleSection'
 import { ChartPie, MessageSquare, SettingsIcon } from 'lucide-react'
 import Link from 'next/link'
 import { UrlObject } from 'url'
+import { TitleSection } from '@/components/TitleSection'
 
 export default function AccountSection() {
     return (

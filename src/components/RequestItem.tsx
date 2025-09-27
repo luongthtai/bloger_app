@@ -15,8 +15,8 @@ export default function RequestItem() {
             </div>
 
             <div className='flex gap-8 '>
-                <TertiaryButton padding='small' className='text-12 w-[100px]'>Confirm</TertiaryButton>
-                <SecondaryButton padding='small' className='text-12 w-[100px]'>Delete</SecondaryButton>
+                <TertiaryButton padding='small' className='text-12 max-w-[100px] w-full'>Confirm</TertiaryButton>
+                <SecondaryButton padding='small' className='text-12 max-w-[100px] w-full'>Delete</SecondaryButton>
             </div>
         </div>
     )

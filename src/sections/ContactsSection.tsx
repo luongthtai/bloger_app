@@ -1,23 +1,23 @@
-import ContactItem from '../components/ContactItem'
-import { TitleSection } from '../components/TitleSection'
+import ContactItem from "@/components/ContactItem"
+import { TitleSection } from "@/components/TitleSection"
 
 const contactData = [
     {
         id: 1,
         userName: 'Hurin Seary',
-        avatar: 'http://localhost:3002/avatar.webp',
+        avatar: 'http://192.168.1.3:3002/avatar.webp',
         status: true
     },
     {
         id: 2,
         userName: 'Victo Exrixon',
-        avatar: 'http://localhost:3002/avatar.webp',
+        avatar: 'http://192.168.1.3:3002/avatar.webp',
         status: true
     },
     {
         id: 3,
         userName: 'Surfiya Zakir',
-        avatar: 'http://localhost:3002/avatar.webp',
+        avatar: 'http://192.168.1.3:3002/avatar.webp',
         status: false
     },
 ]

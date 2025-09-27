@@ -1,7 +1,7 @@
 import React from 'react'
-import { TitleSection } from '../components/TitleSection'
-import SettingItem from '../components/SettingItem'
 import { House, MapPin, Twitter } from 'lucide-react'
+import SettingItem from '@/components/SettingItem'
+import { TitleSection } from '@/components/TitleSection'
 
 const genaralData = [
     {

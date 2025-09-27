@@ -1,6 +1,6 @@
+import GroupItem from '@/components/GroupItem'
+import { TitleSection } from '@/components/TitleSection'
 import React from 'react'
-import { TitleSection } from '../components/TitleSection'
-import GroupItem from '../components/GroupItem'
 
 const groupData = [
     {

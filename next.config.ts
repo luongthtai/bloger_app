@@ -3,14 +3,15 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   typedRoutes: true,
   images: {
-    // localPatterns: [
-    //   {
-    //     pathname: "/**"
-    //   }
-    // ],
+    localPatterns: [
+      {
+        pathname: "/**"
+      }
+    ],
     remotePatterns: [
       {
-        hostname: "localhost"
+        protocol: "http",
+        hostname: "192.168.1.3",
       }
     ]
   }

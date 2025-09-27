@@ -1,6 +1,6 @@
+import RequestItem from '@/components/RequestItem'
+import { TitleSectionMedium } from '@/components/TitleSection'
 import React from 'react'
-import { TitleSectionMedium } from '../components/TitleSection'
-import RequestItem from '../components/RequestItem'
 
 export default function FriendRequest() {
     return (
